@@ -1,0 +1,79 @@
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/contact.css">
+    <link rel="stylesheet" href="assets/styles/nav.css">
+    <title>Contact</title>
+</head>
+<body>
+    <script src="assets/js/contact.js"></script>
+    <nav>
+        <div class="navLeft">
+            <a href="index.html"><img src="assets/images/logo.png" alt="logo" style="width: 40px;"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="addProject.html">MyProject</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="navRight">
+            <ul>
+                <li> 
+                    <a href="contact.html" class="contacMe">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+
+    <div class="headContent">
+        <div>
+            <h1 style="text-align: center;">GET IN TOUCH</h1>
+            <div class="form">
+
+                <div class="form_element">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Name" style="padding-left: 5px;">
+                </div>
+
+                <div class="form_element">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="@gmail.com" style="padding-left: 5px;">
+                </div>
+
+                <div class="form_element">
+                    <label for="phone">Phone</label>
+                    <input type="text" id="phone" placeholder="0821 1957 ****" style="padding-left: 5px;">
+                </div>
+
+                <div class="form_element"> 
+                    <label for="subject">Subject</label>
+                    <select name="subjet" id="subject">
+                        <option value="" hidden>select your agency</option>
+                        <option value="Tni">Tni</option>
+                        <option value="Polri">Polri</option>
+                        <option value="Pns">Pns</option>
+                    </select>       
+                </div>
+
+                <div class="form_element">
+                    <label for="message">Your Message</label>
+                    <textarea name="" id="message" cols="30" rows="5" placeholder="Comment" style="resize: none;"></textarea>
+                </div>
+
+                <div class="btnSubmit">
+                    <button type="submit" onclick="buttonSubmit()">submit</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+  
+   
+    
+</body>
+</html>
